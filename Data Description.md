@@ -1,6 +1,6 @@
 # 📊 Dataset Description
 
-## Online Retail Dataset(Online Retail.xlsx1)
+## Online Retail Dataset(Online Retail.xlsx)
 
 This project uses the **Online Retail Dataset**, which contains transactional data from a UK-based online retail company. The dataset includes all transactions occurring between **December 2010 and December 2011**.
 
