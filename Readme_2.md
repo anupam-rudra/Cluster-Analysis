@@ -10,7 +10,7 @@ The workflow combines **unsupervised learning (clustering)** and **supervised le
 ---
 
 ## Dataset
-The project uses the **Wholesale Customers Dataset** from the UCI Machine Learning Repository.
+The project uses the **Wholesale Customers Dataset**(Wholesale customer data.csv) from the UCI Machine Learning Repository.
 
 The dataset contains annual spending amounts for wholesale customers across different product categories.
 
