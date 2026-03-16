@@ -1,0 +1,190 @@
+# Wholesale Customers Dataset – Detailed Description
+
+## Overview
+The **Wholesale Customers Dataset** contains information about annual spending by wholesale customers on different product categories.  
+The dataset is widely used for **customer segmentation**, **clustering**, and **market analysis** tasks in machine learning.
+
+The data represents spending behavior of customers belonging to different **regions** and **distribution channels**. Businesses can use this information to identify purchasing patterns, understand customer groups, and design targeted marketing strategies.
+
+---
+
+## Source
+The dataset is publicly available from the **UCI Machine Learning Repository**.
+
+Dataset name: **Wholesale Customers Dataset**
+
+Number of observations: **440 customers**
+
+Number of variables: **8 features**
+
+---
+
+## Dataset Structure
+
+Each row in the dataset represents a **single wholesale customer**.
+
+Each column represents the **annual spending amount (monetary units)** on a specific product category.
+
+| Feature | Data Type | Description |
+|-------|-----------|-------------|
+| Channel | Categorical | Distribution channel of the customer |
+| Region | Categorical | Geographic region of the customer |
+| Fresh | Numeric | Annual spending on fresh products |
+| Milk | Numeric | Annual spending on milk products |
+| Grocery | Numeric | Annual spending on grocery products |
+| Frozen | Numeric | Annual spending on frozen products |
+| Detergents_Paper | Numeric | Annual spending on detergents and paper products |
+| Delicatessen | Numeric | Annual spending on delicatessen products |
+
+---
+
+## Feature Description
+
+### Channel
+Represents the type of distribution channel used by the customer.
+
+Possible values:
+
+| Value | Channel Type |
+|------|-------------|
+| 1 | Horeca (Hotel/Restaurant/Cafe) |
+| 2 | Retail |
+
+This variable helps differentiate **food service businesses** from **retail stores**.
+
+---
+
+### Region
+Represents the geographic region where the customer operates.
+
+Possible values:
+
+| Value | Region |
+|------|-------|
+| 1 | Lisbon |
+| 2 | Oporto |
+| 3 | Other Region |
+
+This variable allows analysis of **regional purchasing behavior**.
+
+---
+
+### Fresh
+Annual spending on fresh products.
+
+Examples of fresh products include:
+
+- Fruits
+- Vegetables
+- Fresh meat
+- Seafood
+
+Businesses such as restaurants typically spend heavily in this category.
+
+---
+
+### Milk
+Annual spending on milk-based products.
+
+Examples include:
+
+- Milk
+- Cheese
+- Yogurt
+- Dairy products
+
+Retail grocery stores may have significant spending in this category.
+
+---
+
+### Grocery
+Annual spending on grocery products.
+
+Examples include:
+
+- Packaged food
+- Dry food products
+- Canned goods
+- Household groceries
+
+This category often shows strong correlation with **Detergents_Paper**.
+
+---
+
+### Frozen
+Annual spending on frozen food products.
+
+Examples include:
+
+- Frozen vegetables
+- Frozen meat
+- Frozen ready-to-eat meals
+
+Customers with storage facilities may spend more in this category.
+
+---
+
+### Detergents_Paper
+Annual spending on detergents and paper products.
+
+Examples include:
+
+- Cleaning detergents
+- Paper towels
+- Tissue products
+- Cleaning supplies
+
+Retail stores usually have high spending in this category.
+
+---
+
+### Delicatessen
+Annual spending on delicatessen items.
+
+Examples include:
+
+- Prepared foods
+- Specialty meats
+- Gourmet products
+
+These products are often sold in specialty stores or premium food outlets.
+
+---
+
+## Data Characteristics
+
+Some important characteristics of the dataset include:
+
+- Spending values vary widely across customers.
+- The dataset contains **skewed distributions**, meaning a small number of customers have very high spending.
+- Certain features are **strongly correlated**, especially:
+  - Grocery
+  - Detergents_Paper
+  - Milk
+
+Because of these characteristics, preprocessing steps such as **scaling and outlier detection** are important before applying machine learning algorithms.
+
+---
+
+## Typical Use Cases
+
+This dataset is commonly used in data science and machine learning for:
+
+### Customer Segmentation
+Grouping customers based on purchasing behavior.
+
+### Market Basket Analysis
+Understanding product purchasing patterns.
+
+### Retail Analytics
+Studying sales distribution across product categories.
+
+### Unsupervised Learning
+Applying clustering algorithms such as:
+
+- K-Means Clustering
+- Hierarchical Clustering
+- DBSCAN
+
+### Feature Analysis
+Studying correlations between product categories.
